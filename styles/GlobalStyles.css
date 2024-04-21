@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lato:wght@300;400;700;900&family=Roboto:wght@400;700;900&display=swap");
+:root {
+  --main-bg-color: #e8f5e9; /* Light green background */
+  --accent-color-1: #bce0be; /* Light green accent */
+  --accent-color-2: #648b65; /* Green accent */
+  --text-color: #1b5e20; /* Dark green text */
+  --link-color: #4e9d52; /* Green link color */
+  --border-color: #a5d6a7; /* Pale green border */
+  --quote-color: #6b746b;
+}
+
+*,
+*:focus:none,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--main-bg-color);
+}

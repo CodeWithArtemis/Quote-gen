@@ -1,0 +1,39 @@
+.quote_container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: var(--accent-color-1);
+  box-shadow: 3px 2px 2px 3px rgba(0, 0, 0, 0.2);
+
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.history {
+  background-color: var(--history-color);
+}
+
+.quote_text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--quote-color);
+}
+
+.quote_author {
+  margin-top: 10px;
+  font-style: italic;
+  color: var(--quote-color);
+
+  font-weight: bolder;
+}
+.quote_category {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--accent-color-2);
+  margin-bottom: 1rem;
+  display: inline-block;
+  background-color: var(--border-color);
+  padding: 0.2rem 0.4rem;
+  border-radius: 10px;
+  box-shadow: inset 3px 2px 2px 0.1px rgba(0, 0, 0, 0.1);
+}
